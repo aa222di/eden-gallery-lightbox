@@ -1,42 +1,4 @@
-/* ------------------------ TABLE OF CONTENTS ------------------------ */
-/*
-
-- Typography
-- Grid Values
-- Sticky Footer Value
-- Colors
-
-
-*/
-/* ------------------------ TYPOGRAPHY ------------------------ */
-/* Here is where you set your font-families and your body font-size. The rest of the typography adjusts itself to this value based on the Golden Ratio.
-This generates a base which is seated on the same baseline. In case you wan't to change individual H1-H6 etc. You have to do that in typography.less or
-better yet - override the styles in another document. */
-/* Font families */
-/* Font sizes */
-/* VARIABLES BASED ON THE GOLDEN RATIO */
-/* Font colors */
-/* Font weight */
-/* Links */
-/* ------------------------ COLORS ------------------------ */
-/* ------------------------ GRID VALUES ------------------------ */
-/* Media queries */
-body {
-  width: 100%;
-  overflow-y: auto;
-  min-height: 100%;
-  margin: 0 auto; }
-
-html {
-  height: 100%;
-  overflow: auto; }
-
-*, *:before, *:after {
-  box-sizing: border-box; }
-
-/* ------------------------ MIXINS ------------------------ */
-/* Calculates font size in rem and px  for browser compatability */
-/* Sets h1 on baseline */
+/* Css to create style gallery container and thumbnails */
 .eden-gallery-lightbox {
   text-align: center;
   overflow: auto; }
@@ -59,6 +21,7 @@ html {
         -webkit-transform: scale(1.5);
                 transform: scale(1.5);
         opacity: 0.9; }
+
   .eden-gallery-lightbox .thumbnail {
     height: 78px;
     width: 78px;
