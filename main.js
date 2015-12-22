@@ -1,5 +1,5 @@
 /**
- * Print out literals and their type.
+ * Eden Gallery Lightbox Plugin
  */
 $(document).ready(function(){
   'use strict';
